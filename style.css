@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    background-color: #000000;
+    font-family: "Inter",sans-serif;
+    overflow-x: hidden;
+    
+}
+header h1{
+    text-align: center;
+    color: #fff;
+}
+.container{
+    border-radius: 12px;
+    width: 25vw;
+    height: 500px;
+    background:linear-gradient(#3eb677, #6ec6f1);
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 2px  #0ed9eb;
+}
+.container input{
+    border-radius: 12px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    
+}
+.inputs{
+    text-align: center;
+    position: relative;
+    top: 35px;
+    
+}
+.inputs h2,p{
+    color: #fff;
+    font-size: 20px;
+}
+.inputs input{
+    margin-top: -10px;
+    color: green;
+    font-weight: 800;
+}
+.res{
+    width: 60%;
+    height: 70px;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    top: 15%;
+    left: 21%;
+    text-align: center;
+    /* line-height: 70px; */
+    /* display: none; */
+}
+.res p{
+    text-align: center;
+    color: #3eb677;
+    line-height: 80px;
+}
+#texto-mostrado{
+    line-height: 80px;
+}
+
+.btn input{
+    background-color: #00a54e;
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+@media (width<=576px){
+    .container{
+        width: 90%;
+    }
+    
+}
+@media (width<=770px){
+    .container{
+        width: 90%;
+    }
+    /* .res{
+        line-height: 70px;
+    } */
+}
+@media (width<=992px){
+    .container{
+        width: 90%;
+    }
+    /* .res{
+        line-height: 70px;
+    } */
+}
+/* @media  (width<=1200px){
+    .container{
+        width: 90%;
+    }
+    .res{
+        line-height: 70px;
+    }
+}
+@media (width>=1400px){
+    .container{
+        width: 40%;
+    }
+    .res{
+        line-height: 70px;
+    }
+} */
